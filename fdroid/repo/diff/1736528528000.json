@@ -1,19 +1,18 @@
 {
   "repo": {
-    "timestamp": 1745560651000
+    "timestamp": 1746198718000
   },
   "packages": {
     "com.android.vending": {
       "metadata": {
-        "added": 1443989428000,
-        "lastUpdated": 1745536207000
+        "lastUpdated": 1745539807000
       },
       "versions": {
         "91052e12866b867929f5f1ba27914b8cb365ce21d2f07e516f8c5ca930d9e5ce": null,
         "7fbf38e5a6f7958442547971eb0fcdcbe6429ff1db8141e048516eaa65e48769": null,
         "c34407656d196e281d07058d05f7d046a0efafcda5a9e3cc241149f55c2a83a6": null,
         "6cd6cf146ecbda90cd3134692f36dbaeaec5d2ea9580e3453ea599209f678450": {
-          "added": 1745536207000,
+          "added": 1745539807000,
           "file": {
             "name": "/com.android.vending-84022614.apk",
             "sha256": "6cd6cf146ecbda90cd3134692f36dbaeaec5d2ea9580e3453ea599209f678450",
@@ -89,44 +88,14 @@
                 "name": "android.permission.FAKE_PACKAGE_SIGNATURE"
               }
             ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "7bfafc73d4456b73a9fa8f110e3d75e9b9407152db8c8f0202cbb0fd4da5dbe4": {
-          "added": 1734987676000
-        },
-        "883682167a75f38be8c0564dffd8c9cc521851d63ffd4a28d8a5e9e2cd1ddd8a": {
-          "added": 1733851502000
-        },
-        "2433f306cdde5500b0c918780f08f8d00589694df3e5e6882d7d81e6e9b52ba9": {
-          "added": 1731451698000
-        },
-        "5bf0e6ae2ba763b32cc5e3da9bd29062ea8a37842c89feb6d04c012f8eea94c9": {
-          "added": 1727471587000
-        },
-        "3eaca92ee3ec2453cc9e07b618194ba1e584b9b1b851c96a160b831b31cb81f5": {
-          "added": 1715867347000
-        },
-        "881d7d294f85165fa2891e1e345a28553dfe3975040bdb761104c0347ec586c7": {
-          "added": 1711239722000
-        },
-        "5e0d2d93f8c824ce874025073e3c3e152044c1cc837c988f9dbe0ba354c58c80": {
-          "added": 1698491107000
-        },
-        "ab3e5396956a80a1a3ebc7c1953da008d69f694f133bdd0cbc95e0e8e19ecda0": {
-          "added": 1694974828000
-        },
-        "cfc80383833a9fed87111ef32fc7f93e92b86727308dd4abdb0040c55c5b5155": {
-          "added": 1684152785000
+          }
         }
       }
     },
     "com.google.android.gms": {
       "metadata": {
-        "added": 1535474155000,
-        "lastUpdated": 1745536297000
+        "added": 1535477755000,
+        "lastUpdated": 1745539897000
       },
       "versions": {
         "edeb0f113cb48ff9381c2f3849a03fece093521ca752e6e52e2c51b208c1c4d1": null,
@@ -136,7 +105,7 @@
         "99ae2cbbeea23bc2b32e1771c667113b68409e03fca719d23f5728574d8448be": null,
         "3b89316d89f9f14ba293242d673093674d25c8864b36fe7a8d112eadd8f2c58d": null,
         "2da6fa694634d776242d2e689c0cdebfd6db0ddcde152a7c3bc21621ab0aa682": {
-          "added": 1745536297000,
+          "added": 1745539897000,
           "file": {
             "name": "/com.google.android.gms-250932014.apk",
             "sha256": "2da6fa694634d776242d2e689c0cdebfd6db0ddcde152a7c3bc21621ab0aa682",
@@ -339,51 +308,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {}
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "530c52f2d1ab8aa170a15d9eec2afd13ace940f12d759e39175468d7ad245b58": {
-          "added": 1734987680000
-        },
-        "aaf479e1ff932d5dd8cf545b76c0857f7138196f3baf994c0fa9429aae2a622a": {
-          "added": 1733851407000
-        },
-        "33b65b5c9b7e49fbfb9aa578f452a7c85fe01920975c8432f770c8f6f04a40e3": {
-          "added": 1731451647000
-        },
-        "027da18a5ff969028a5c6cef8079e61eba99266ce56c6b812d0b9bd7b252b6d0": {
-          "added": 1727471582000
-        },
-        "0117aff8ba067a8df52616ce84631fd5648bcdb2204353d168a5ff5fb7926186": {
-          "added": 1715867344000
-        },
-        "1ec5c77faeb7d3b82f340427271f8ea32de84f640fe672b7312fb90e47f3d6dd": {
-          "added": 1711239701000
-        },
-        "1a6f6205d82c5075f1789cfc92924e5ea9b648b7397e9f667959ac4d956cb3f5": {
-          "added": 1698491077000
-        },
-        "f7654650bef3eadd78a903b75e712b98e1cc99db22e40ac2f489466a7961c4d0": {
-          "added": 1694962380000
-        },
-        "9cce679bd900e288f212a88dde844ae26b42718c22e4aa83a87ed1aa8a064555": {
-          "added": 1685397187000
-        },
-        "2603fad854a63ac7a3ce9c01a3087a2f583a71a3c50e738af3520566d86f060c": {
-          "added": 1673770488000
-        }
-      }
-    },
-    "com.google.android.gsf": {
-      "metadata": {
-        "added": 1454843696000,
-        "lastUpdated": 1454843696000
-      },
-      "versions": {
-        "86891b174301f06a1c84187b545a0a2a57044c6b768f3e84e865908743349692": {
-          "added": 1454843696000
+          }
         }
       }
     }
