@@ -1,16 +1,98 @@
 {
   "repo": {
-    "timestamp": 1752414260000
+    "timestamp": 1753392619000
   },
   "packages": {
     "com.android.vending": {
       "metadata": {
-        "lastUpdated": 1752421245000
+        "lastUpdated": 1753399733000
       },
       "versions": {
         "91052e12866b867929f5f1ba27914b8cb365ce21d2f07e516f8c5ca930d9e5ce": null,
         "7fbf38e5a6f7958442547971eb0fcdcbe6429ff1db8141e048516eaa65e48769": null,
         "c34407656d196e281d07058d05f7d046a0efafcda5a9e3cc241149f55c2a83a6": null,
+        "5a98df2180807da003ef0b7a12b4e9c91dfd358084fb814114eea14f1089825b": {
+          "added": 1753399733000,
+          "file": {
+            "name": "/com.android.vending-84022618.apk",
+            "sha256": "5a98df2180807da003ef0b7a12b4e9c91dfd358084fb814114eea14f1089825b",
+            "size": 4455193
+          },
+          "manifest": {
+            "versionName": "0.3.9.40226",
+            "versionCode": 84022618,
+            "usesSdk": {
+              "minSdkVersion": 19,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "org.microg.gms.permission.READ_SETTINGS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "com.google.android.gms.permission.READ_SETTINGS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DELETE_PACKAGES"
+              },
+              {
+                "name": "com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_PROFILES"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.FAKE_PACKAGE_SIGNATURE"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "23b23c24377d8fc173f8c977e7c10ea7cfde3eeda7fef16cd28a787cd33402ce": {
           "added": 1752421245000,
           "file": {
@@ -177,7 +259,7 @@
     "com.google.android.gms": {
       "metadata": {
         "added": 1535477755000,
-        "lastUpdated": 1752421255000
+        "lastUpdated": 1753399424000
       },
       "versions": {
         "edeb0f113cb48ff9381c2f3849a03fece093521ca752e6e52e2c51b208c1c4d1": null,
@@ -186,6 +268,212 @@
         "6e0ee8bfe193dae39e21dc72eea6b86c5797bdd6dcb4b717cecbda10053bb049": null,
         "99ae2cbbeea23bc2b32e1771c667113b68409e03fca719d23f5728574d8448be": null,
         "3b89316d89f9f14ba293242d673093674d25c8864b36fe7a8d112eadd8f2c58d": null,
+        "3df0e2a8122e14a055b35ce6a458b190c5e8a96f311f38f44dea2f1c09074372": {
+          "added": 1753399424000,
+          "file": {
+            "name": "/com.google.android.gms-250932018.apk",
+            "sha256": "3df0e2a8122e14a055b35ce6a458b190c5e8a96f311f38f44dea2f1c09074372",
+            "size": 104650628
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.3.9.250932",
+            "versionCode": 250932018,
+            "usesSdk": {
+              "minSdkVersion": 19,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_SYNC_STATS"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.SEND"
+              },
+              {
+                "name": "com.google.android.gtalkservice.permission.GTALK_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.auth.api.phone.permission.SEND"
+              },
+              {
+                "name": "org.microg.gms.STATUS_BROADCAST"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"
+              },
+              {
+                "name": "android.permission.UPDATE_APP_OPS_STATS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.BODY_SENSORS"
+              },
+              {
+                "name": "android.permission.LOCATION_HARDWARE"
+              },
+              {
+                "name": "android.permission.INSTALL_LOCATION_PROVIDER"
+              },
+              {
+                "name": "android.permission.NETWORK_SCAN"
+              },
+              {
+                "name": "android.permission.MODIFY_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_SMS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.START_ACTIVITIES_FROM_BACKGROUND"
+              },
+              {
+                "name": "android.permission.UPDATE_DEVICE_STATS"
+              },
+              {
+                "name": "android.permission.WATCH_APPOPS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADVERTISE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_SCAN"
+              },
+              {
+                "name": "com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_PROFILES"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.FAKE_PACKAGE_SIGNATURE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {}
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "2171bc296d16b638600a91df1e1603b5a0c223a46f35e35eb905885b0e47f5f8": {
           "added": 1752421255000,
           "file": {

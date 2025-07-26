@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="fdroid-icon.png" name="microG F-Droid repo" pubkey="308202ed308201d5a003020102020426ffa009300d06092a864886f70d01010b05003027310b300906035504061302444531183016060355040a130f4e4f47415050532050726f6a656374301e170d3132313030363132303533325a170d3337303933303132303533325a3027310b300906035504061302444531183016060355040a130f4e4f47415050532050726f6a65637430820122300d06092a864886f70d01010105000382010f003082010a02820101009a8d2a5336b0eaaad89ce447828c7753b157459b79e3215dc962ca48f58c2cd7650df67d2dd7bda0880c682791f32b35c504e43e77b43c3e4e541f86e35a8293a54fb46e6b16af54d3a4eda458f1a7c8bc1b7479861ca7043337180e40079d9cdccb7e051ada9b6c88c9ec635541e2ebf0842521c3024c826f6fd6db6fd117c74e859d5af4db04448965ab5469b71ce719939a06ef30580f50febf96c474a7d265bb63f86a822ff7b643de6b76e966a18553c2858416cf3309dd24278374bdd82b4404ef6f7f122cec93859351fc6e5ea947e3ceb9d67374fe970e593e5cd05c905e1d24f5a5484f4aadef766e498adf64f7cf04bddd602ae8137b6eea40722d0203010001a321301f301d0603551d0e04160414110b7aa9ebc840b20399f69a431f4dba6ac42a64300d06092a864886f70d01010b0500038201010007c32ad893349cf86952fb5a49cfdc9b13f5e3c800aece77b2e7e0e9c83e34052f140f357ec7e6f4b432dc1ed542218a14835acd2df2deea7efd3fd5e8f1c34e1fb39ec6a427c6e6f4178b609b369040ac1f8844b789f3694dc640de06e44b247afed11637173f36f5886170fafd74954049858c6096308fc93c1bc4dd5685fa7a1f982a422f2a3b36baa8c9500474cf2af91c39cbec1bc898d10194d368aa5e91f1137ec115087c31962d8f76cd120d28c249cf76f4c70f5baa08c70a7234ce4123be080cee789477401965cfe537b924ef36747e8caca62dfefdd1a6288dcb1c4fd2aaa6131a7ad254e9742022cfd597d2ca5c660ce9e41ff537e5a4041e37" timestamp="1752414260" url="https://microg.org/fdroid/repo" version="20002">
+	<repo icon="fdroid-icon.png" name="microG F-Droid repo" pubkey="308202ed308201d5a003020102020426ffa009300d06092a864886f70d01010b05003027310b300906035504061302444531183016060355040a130f4e4f47415050532050726f6a656374301e170d3132313030363132303533325a170d3337303933303132303533325a3027310b300906035504061302444531183016060355040a130f4e4f47415050532050726f6a65637430820122300d06092a864886f70d01010105000382010f003082010a02820101009a8d2a5336b0eaaad89ce447828c7753b157459b79e3215dc962ca48f58c2cd7650df67d2dd7bda0880c682791f32b35c504e43e77b43c3e4e541f86e35a8293a54fb46e6b16af54d3a4eda458f1a7c8bc1b7479861ca7043337180e40079d9cdccb7e051ada9b6c88c9ec635541e2ebf0842521c3024c826f6fd6db6fd117c74e859d5af4db04448965ab5469b71ce719939a06ef30580f50febf96c474a7d265bb63f86a822ff7b643de6b76e966a18553c2858416cf3309dd24278374bdd82b4404ef6f7f122cec93859351fc6e5ea947e3ceb9d67374fe970e593e5cd05c905e1d24f5a5484f4aadef766e498adf64f7cf04bddd602ae8137b6eea40722d0203010001a321301f301d0603551d0e04160414110b7aa9ebc840b20399f69a431f4dba6ac42a64300d06092a864886f70d01010b0500038201010007c32ad893349cf86952fb5a49cfdc9b13f5e3c800aece77b2e7e0e9c83e34052f140f357ec7e6f4b432dc1ed542218a14835acd2df2deea7efd3fd5e8f1c34e1fb39ec6a427c6e6f4178b609b369040ac1f8844b789f3694dc640de06e44b247afed11637173f36f5886170fafd74954049858c6096308fc93c1bc4dd5685fa7a1f982a422f2a3b36baa8c9500474cf2af91c39cbec1bc898d10194d368aa5e91f1137ec115087c31962d8f76cd120d28c249cf76f4c70f5baa08c70a7234ce4123be080cee789477401965cfe537b924ef36747e8caca62dfefdd1a6288dcb1c4fd2aaa6131a7ad254e9742022cfd597d2ca5c660ce9e41ff537e5a4041e37" timestamp="1753392619" url="https://microg.org/fdroid/repo" version="20002">
 		<description>This is a repository of microG apps to be used with F-Droid. Applications in this repository are signed official binaries built by the microG Team from the corresponding source code.</description>
 		<mirror>https://raw.githubusercontent.com/microg/fdroid-repo/master/fdroid/repo</mirror>
 	</repo>
 	<application id="com.android.vending">
 		<id>com.android.vending</id>
 		<added>2015-10-04</added>
-		<lastupdated>2025-07-13</lastupdated>
+		<lastupdated>2025-07-24</lastupdated>
 		<name>microG Companion</name>
 		<summary>Companion app to microG Services</summary>
 		<desc>Providing Play Store services to apps. Required for Play Services clients to connect to Play Services.</desc>
@@ -20,6 +20,20 @@
 		<changelog>https://github.com/microg/android_packages_apps_FakeStore/releases</changelog>
 		<marketversion></marketversion>
 		<marketvercode>84022614</marketvercode>
+		<package>
+			<version>0.3.9.40226</version>
+			<versioncode>84022618</versioncode>
+			<apkname>com.android.vending-84022618.apk</apkname>
+			<hash type="sha256">5a98df2180807da003ef0b7a12b4e9c91dfd358084fb814114eea14f1089825b</hash>
+			<size>4455193</size>
+			<sdkver>19</sdkver>
+			<targetSdkVersion>29</targetSdkVersion>
+			<added>2025-07-24</added>
+			<sig>d91564be0d13dcff260fe019eeea8cd8</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_NETWORK_STATE,DELETE_PACKAGES,FAKE_PACKAGE_SIGNATURE,FOREGROUND_SERVICE,GET_ACCOUNTS,INSTALL_PACKAGES,INTERACT_ACROSS_PROFILES,INTERACT_ACROSS_USERS,INTERNET,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,REQUEST_INSTALL_PACKAGES,USE_CREDENTIALS,com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE,com.google.android.gms.permission.READ_SETTINGS,org.microg.gms.permission.READ_SETTINGS</permissions>
+			<uses-permission maxSdkVersion="22" name="android.permission.GET_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.USE_CREDENTIALS"/>
+		</package>
 		<package>
 			<version>0.3.8.40226</version>
 			<versioncode>84022616</versioncode>
@@ -172,7 +186,7 @@
 	<application id="com.google.android.gms">
 		<id>com.google.android.gms</id>
 		<added>2018-08-28</added>
-		<lastupdated>2025-07-13</lastupdated>
+		<lastupdated>2025-07-24</lastupdated>
 		<name>microG Services</name>
 		<summary>Re-Implementation of Play Services</summary>
 		<desc>microG GmsCore is a FLOSS (Free/Libre Open Source Software) framework to allow applications designed for Google Play Services to run on systems, where Play Services is not available.
@@ -188,6 +202,19 @@ As the original Play Services, microG GmsCore allows you to contact certain Goog
 		<marketversion></marketversion>
 		<marketvercode>250932014</marketvercode>
 		<antifeatures>NonFreeNet</antifeatures>
+		<package>
+			<version>0.3.9.250932</version>
+			<versioncode>250932018</versioncode>
+			<apkname>com.google.android.gms-250932018.apk</apkname>
+			<hash type="sha256">3df0e2a8122e14a055b35ce6a458b190c5e8a96f311f38f44dea2f1c09074372</hash>
+			<size>104650628</size>
+			<sdkver>19</sdkver>
+			<targetSdkVersion>29</targetSdkVersion>
+			<added>2025-07-24</added>
+			<sig>d91564be0d13dcff260fe019eeea8cd8</sig>
+			<permissions>ACCESS_BACKGROUND_LOCATION,ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,AUTHENTICATE_ACCOUNTS,BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_ADVERTISE,BLUETOOTH_CONNECT,BLUETOOTH_SCAN,BODY_SENSORS,CAMERA,CHANGE_DEVICE_IDLE_TEMP_WHITELIST,CHANGE_WIFI_STATE,FAKE_PACKAGE_SIGNATURE,FOREGROUND_SERVICE,GET_ACCOUNTS,INSTALL_LOCATION_PROVIDER,INTERACT_ACROSS_PROFILES,INTERACT_ACROSS_USERS,INTERNET,LOCATION_HARDWARE,MANAGE_ACCOUNTS,MANAGE_USB,MODIFY_PHONE_STATE,NETWORK_SCAN,NFC,POST_NOTIFICATIONS,READ_CONTACTS,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,READ_SYNC_SETTINGS,READ_SYNC_STATS,RECEIVE_BOOT_COMPLETED,RECEIVE_SMS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,START_ACTIVITIES_FROM_BACKGROUND,SYSTEM_ALERT_WINDOW,UPDATE_APP_OPS_STATS,UPDATE_DEVICE_STATS,USE_BIOMETRIC,USE_CREDENTIALS,USE_FINGERPRINT,WAKE_LOCK,WATCH_APPOPS,WRITE_EXTERNAL_STORAGE,WRITE_SYNC_SETTINGS,com.google.android.c2dm.permission.RECEIVE,com.google.android.c2dm.permission.SEND,com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.google.android.gms.auth.api.phone.permission.SEND,com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE,com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK,com.google.android.gms.permission.AD_ID,com.google.android.gtalkservice.permission.GTALK_SERVICE,org.microg.gms.STATUS_BROADCAST</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>0.3.8.250932</version>
 			<versioncode>250932016</versioncode>
