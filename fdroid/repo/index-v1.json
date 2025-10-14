@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1753392619000,
+    "timestamp": 1760437767000,
     "version": 20002,
     "name": "microG F-Droid repo",
     "icon": "fdroid-icon.png",
@@ -29,7 +29,7 @@
       "webSite": "https://microg.org/",
       "added": 1443993028000,
       "packageName": "com.android.vending",
-      "lastUpdated": 1753399733000,
+      "lastUpdated": 1760443647000,
       "localized": {
         "en-US": {
           "icon": "icon_mqU1K_78HQ0wDqcFCbkR1nC6hXrxhcNqJ_fsP7krO9E=.png",
@@ -55,7 +55,7 @@
       "webSite": "https://microg.org/",
       "added": 1535477755000,
       "packageName": "com.google.android.gms",
-      "lastUpdated": 1753399424000,
+      "lastUpdated": 1760443642000,
       "localized": {
         "en-US": {
           "icon": "icon_H3OrBvPFsOPEJPvmR2OCaYKyBwDN_Eh9syVHdviU-n8=.png",
@@ -91,6 +91,102 @@
   ],
   "packages": {
     "com.android.vending": [
+      {
+        "added": 1760443647000,
+        "apkName": "com.android.vending-84022620.apk",
+        "hash": "9dcd4d9d598c2b8c186385204565ef9d80c600a1ea1cfdc708f4f231c880684c",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "packageName": "com.android.vending",
+        "sig": "d91564be0d13dcff260fe019eeea8cd8",
+        "signer": "9bd06727e62796c0130eb6dab39b73157451582cbd138e86c468acc395d14165",
+        "size": 4602851,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            22
+          ],
+          [
+            "org.microg.gms.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "org.microg.gms.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.DELETE_PACKAGES",
+            null
+          ],
+          [
+            "com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            22
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_PROFILES",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_USERS",
+            null
+          ],
+          [
+            "com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.FAKE_PACKAGE_SIGNATURE",
+            null
+          ]
+        ],
+        "versionCode": 84022620,
+        "versionName": "0.3.10.40226"
+      },
       {
         "added": 1753399733000,
         "apkName": "com.android.vending-84022618.apk",
@@ -761,6 +857,260 @@
       }
     ],
     "com.google.android.gms": [
+      {
+        "added": 1760443642000,
+        "apkName": "com.google.android.gms-250932020.apk",
+        "hash": "5bdda5438acfe2158a3e5d747f5a578dc965100b7b9b3cc5d4b8d8922eb46701",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.google.android.gms",
+        "sig": "d91564be0d13dcff260fe019eeea8cd8",
+        "signer": "9bd06727e62796c0130eb6dab39b73157451582cbd138e86c468acc395d14165",
+        "size": 105326731,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "com.google.android.gms.locationsharingreporter.periodic.STATUS_UPDATE",
+            null
+          ],
+          [
+            "com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_BACKGROUND_LOCATION",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.AUTHENTICATE_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.MANAGE_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.WRITE_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.READ_SYNC_STATS",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.SEND",
+            null
+          ],
+          [
+            "com.google.android.gtalkservice.permission.GTALK_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.gms.auth.api.phone.permission.SEND",
+            null
+          ],
+          [
+            "org.microg.gms.STATUS_BROADCAST",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST",
+            null
+          ],
+          [
+            "android.permission.UPDATE_APP_OPS_STATS",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.BODY_SENSORS",
+            null
+          ],
+          [
+            "android.permission.LOCATION_HARDWARE",
+            null
+          ],
+          [
+            "android.permission.INSTALL_LOCATION_PROVIDER",
+            null
+          ],
+          [
+            "android.permission.NETWORK_SCAN",
+            null
+          ],
+          [
+            "android.permission.MODIFY_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_SMS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.MANAGE_USB",
+            null
+          ],
+          [
+            "android.permission.START_ACTIVITIES_FROM_BACKGROUND",
+            null
+          ],
+          [
+            "android.permission.UPDATE_DEVICE_STATS",
+            null
+          ],
+          [
+            "android.permission.WATCH_APPOPS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADVERTISE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_SCAN",
+            null
+          ],
+          [
+            "com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_PROFILES",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_USERS",
+            null
+          ],
+          [
+            "android.permission.FAKE_PACKAGE_SIGNATURE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 250932020,
+        "versionName": "0.3.10.250932"
+      },
       {
         "added": 1753399424000,
         "apkName": "com.google.android.gms-250932018.apk",

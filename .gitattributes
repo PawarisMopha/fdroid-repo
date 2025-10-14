@@ -1,0 +1,2 @@
+/fdroid/repo/com.google.android.gms-250932020.apk filter=lfs diff=lfs merge=lfs -text
+/fdroid/repo/org.microg.gms-250932020-user.apk filter=lfs diff=lfs merge=lfs -text
