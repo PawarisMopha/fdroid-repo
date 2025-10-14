@@ -1,6 +1,18 @@
 {
   "repo": {
-    "timestamp": 1760437767000
+    "mirrors": [
+      {
+        "url": "https://microg.org/fdroid/repo",
+        "isPrimary": true
+      },
+      {
+        "url": "https://media.githubusercontent.com/media/microg/fdroid-repo/refs/heads/main/fdroid/repo"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/microg/fdroid-repo/master/fdroid/repo"
+      }
+    ],
+    "timestamp": 1760439604000
   },
   "packages": {
     "com.android.vending": {
