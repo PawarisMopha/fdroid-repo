@@ -1,17 +1,5 @@
 {
   "repo": {
-    "mirrors": [
-      {
-        "url": "https://microg.org/fdroid/repo",
-        "isPrimary": true
-      },
-      {
-        "url": "https://media.githubusercontent.com/media/microg/fdroid-repo/refs/heads/main/fdroid/repo"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/microg/fdroid-repo/master/fdroid/repo"
-      }
-    ],
     "timestamp": 1761126403000
   },
   "packages": {

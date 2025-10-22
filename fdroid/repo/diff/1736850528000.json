@@ -12,12 +12,15 @@
         "url": "https://raw.githubusercontent.com/microg/fdroid-repo/master/fdroid/repo"
       }
     ],
-    "timestamp": 1760439604000
+    "timestamp": 1761126403000
   },
   "packages": {
     "com.android.vending": {
       "metadata": {
-        "lastUpdated": 1760443647000
+        "changelog": "https://github.com/microg/GmsCore/releases",
+        "issueTracker": "https://github.com/microg/GmsCore/issues",
+        "lastUpdated": 1760443647000,
+        "sourceCode": "https://github.com/microg/GmsCore"
       },
       "versions": {
         "9dcd4d9d598c2b8c186385204565ef9d80c600a1ea1cfdc708f4f231c880684c": {
@@ -185,10 +188,7 @@
                 "name": "android.permission.FAKE_PACKAGE_SIGNATURE"
               }
             ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
+          }
         },
         "23b23c24377d8fc173f8c977e7c10ea7cfde3eeda7fef16cd28a787cd33402ce": {
           "added": 1752421245000,
@@ -267,10 +267,7 @@
                 "name": "android.permission.FAKE_PACKAGE_SIGNATURE"
               }
             ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
+          }
         },
         "6cd6cf146ecbda90cd3134692f36dbaeaec5d2ea9580e3453ea599209f678450": {
           "added": 1745539807000,
@@ -355,7 +352,10 @@
     },
     "com.google.android.gms": {
       "metadata": {
-        "lastUpdated": 1760443642000
+        "changelog": "https://github.com/microg/GmsCore/releases",
+        "issueTracker": "https://github.com/microg/GmsCore/issues",
+        "lastUpdated": 1760443642000,
+        "sourceCode": "https://github.com/microg/GmsCore"
       },
       "versions": {
         "5bdda5438acfe2158a3e5d747f5a578dc965100b7b9b3cc5d4b8d8922eb46701": {
@@ -768,10 +768,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {}
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
+          }
         },
         "2171bc296d16b638600a91df1e1603b5a0c223a46f35e35eb905885b0e47f5f8": {
           "added": 1752421255000,
@@ -974,10 +971,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {}
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
+          }
         },
         "2da6fa694634d776242d2e689c0cdebfd6db0ddcde152a7c3bc21621ab0aa682": {
           "added": 1745539897000,

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1760439604000,
+    "timestamp": 1761126403000,
     "version": 20002,
     "name": "microG F-Droid repo",
     "icon": "fdroid-icon.png",
@@ -20,12 +20,12 @@
       "categories": [
         "System"
       ],
-      "changelog": "https://github.com/microg/android_packages_apps_FakeStore/releases",
-      "suggestedVersionCode": "84022614",
+      "changelog": "https://github.com/microg/GmsCore/releases",
+      "suggestedVersionCode": "84022618",
       "description": "Providing Play Store services to apps. Required for Play Services clients to connect to Play Services.",
-      "issueTracker": "https://github.com/microg/android_packages_apps_FakeStore/issues",
+      "issueTracker": "https://github.com/microg/GmsCore/issues",
       "license": "Apache2",
-      "sourceCode": "https://github.com/microg/android_packages_apps_FakeStore",
+      "sourceCode": "https://github.com/microg/GmsCore",
       "summary": "Companion app to microG Services",
       "webSite": "https://microg.org/",
       "added": 1443993028000,
@@ -45,13 +45,13 @@
       "categories": [
         "System"
       ],
-      "changelog": "https://github.com/microg/android_packages_apps_GmsCore/releases",
-      "suggestedVersionCode": "250932014",
+      "changelog": "https://github.com/microg/GmsCore/releases",
+      "suggestedVersionCode": "250932018",
       "description": "microG GmsCore is a FLOSS (Free/Libre Open Source Software) framework to allow applications designed for Google Play Services to run on systems, where Play Services is not available.\n\nAs the original Play Services, microG GmsCore allows you to contact certain Google services. These services are not open-source.",
-      "issueTracker": "https://github.com/microg/android_packages_apps_GmsCore/issues",
+      "issueTracker": "https://github.com/microg/GmsCore/issues",
       "liberapay": "microG",
       "license": "Apache2",
-      "sourceCode": "https://github.com/microg/android_packages_apps_GmsCore",
+      "sourceCode": "https://github.com/microg/GmsCore",
       "summary": "Re-Implementation of Play Services",
       "webSite": "https://microg.org/",
       "added": 1535477755000,
